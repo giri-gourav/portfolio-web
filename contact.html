@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Gourav Giri Portfolio</title>
+  <meta name="description" content="Get in touch to collaborate on your next web design and development project. Complete the contact form to request a consultation.">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container navbar-container">
+      <a href="index.html" class="logo-group" id="contactNavLogo">
+        <img src="assets/gourav_face.jpg" alt="Gourav Giri" class="logo-avatar">
+        <div class="logo-info">
+          <span class="logo-name">Gourav Giri</span>
+          <span class="logo-title">Designer & Dev</span>
+        </div>
+      </a>
+      
+      <nav class="nav-links">
+        <a href="index.html#services" class="nav-link" id="contactLinkServices">Services</a>
+        <a href="index.html#work" class="nav-link" id="contactLinkWork">Work</a>
+        <a href="index.html#process" class="nav-link" id="contactLinkProcess">Process</a>
+        <a href="index.html#testimonials" class="nav-link" id="contactLinkTestimonials">Testimonials</a>
+        <a href="contact.html" class="nav-cta" id="contactBtnContactNav">Get in Touch</a>
+      </nav>
+      
+      <button class="hamburger" aria-label="Toggle Navigation Menu" id="contactHamburgerMenu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav" id="contactMobileNavDrawer">
+    <a href="index.html#services" class="mobile-nav-link" id="contactMLinkServices">Services</a>
+    <a href="index.html#work" class="mobile-nav-link" id="contactMLinkWork">Work</a>
+    <a href="index.html#process" class="mobile-nav-link" id="contactMLinkProcess">Process</a>
+    <a href="index.html#testimonials" class="mobile-nav-link" id="contactMLinkTestimonials">Testimonials</a>
+    <a href="contact.html" class="btn btn-primary" id="contactMBtnContact">Get in Touch</a>
+  </div>
+
+  <main>
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-layout">
+          <!-- Left side details -->
+          <div class="reveal">
+            <h1 class="contact-headline" id="contactHeadline">Let's Work Together!</h1>
+            <p class="contact-desc" id="contactDescription">
+              Have an upcoming project or need to optimize your existing online presence? Fill out the form, or reach out directly via email. Let's create something remarkable together.
+            </p>
+            
+            <div class="contact-details">
+              <div class="contact-detail-item" id="contactMailDetail">
+                <span class="contact-detail-label">Email Me</span>
+                <a href="mailto:giri.gaurav2002@gmail.com" class="contact-detail-value">giri.gaurav2002@gmail.com</a>
+              </div>
+              
+              <div class="contact-detail-item" id="contactSocialDetail">
+                <span class="contact-detail-label">Follow Me</span>
+                <a href="https://www.linkedin.com/in/gouravgiri23" target="_blank" class="contact-detail-value">LinkedIn</a>
+                <a href="https://www.instagram.com/designsgourav/" target="_blank" class="contact-detail-value">Instagram</a>
+                <a href="https://www.behance.net/gauravgiri7" target="_blank" class="contact-detail-value">Behance</a>
+              </div>
+              
+              <div class="contact-detail-item" id="contactAvailabilityDetail">
+                <span class="contact-detail-label">Availability</span>
+                <span class="contact-detail-value" style="color: var(--accent-neon);">Open for new projects</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right side contact form -->
+          <div class="reveal reveal-delay-1" id="formWrapper">
+            <!-- Actual Form -->
+            <form class="contact-form" id="portfolioContactForm">
+              <div class="form-group" id="groupName">
+                <input type="text" id="contactName" class="form-control" placeholder="Your Name" required>
+                <span class="form-underline"></span>
+                <label for="contactName" class="form-label">Name *</label>
+              </div>
+              
+              <div class="form-group" id="groupEmail">
+                <input type="email" id="contactEmail" class="form-control" placeholder="Your Email Address" required>
+                <span class="form-underline"></span>
+                <label for="contactEmail" class="form-label">Email *</label>
+              </div>
+              
+              <div class="form-group" id="groupMessage">
+                <textarea id="contactMessage" class="form-control" placeholder="Tell me about your project" required></textarea>
+                <span class="form-underline"></span>
+                <label for="contactMessage" class="form-label">Message *</label>
+              </div>
+              
+              <button type="submit" class="btn btn-primary form-submit-btn" id="btnSubmitContact">Send Message</button>
+            </form>
+
+            <!-- Success Overlay -->
+            <div class="form-success-message" id="formSuccessMessage">
+              <div class="success-icon">✓</div>
+              <h2 class="success-title" id="successTitle">Message Sent!</h2>
+              <p class="success-desc" id="successDesc">
+                Thank you for reaching out! I have received your message and will get back to you within 24 hours.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand" id="contactFooterBrand">
+          <div class="logo-group">
+            <img src="assets/gourav_face.jpg" alt="Gourav Giri" class="logo-avatar">
+            <div class="logo-info">
+              <span class="logo-name">Gourav Giri</span>
+              <span class="logo-title">Designer & Dev</span>
+            </div>
+          </div>
+          <p class="footer-desc" id="contactFooterDesc">
+            Designing websites that captivate, convert, and elevate brands across the globe.
+          </p>
+        </div>
+        
+        <div class="footer-links-col" id="contactFooterColNavigation">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html#services" id="contactFLinkServices">Services</a></li>
+            <li><a href="index.html#work" id="contactFLinkWork">Work</a></li>
+            <li><a href="index.html#process" id="contactFLinkProcess">Process</a></li>
+            <li><a href="contact.html" id="contactFLinkContact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links-col" id="contactFooterColSocials">
+          <h4>Connect</h4>
+          <ul class="footer-links">
+            <li><a href="https://www.linkedin.com/in/gouravgiri23" target="_blank" id="contactFLinkLinkedin">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/designsgourav/" target="_blank" id="contactFLinkInstagram">Instagram</a></li>
+            <li><a href="https://www.behance.net/gauravgiri7" target="_blank" id="contactFLinkBehance">Behance</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="copyright" id="contactFooterCopyright">&copy; 2026 Gourav Giri. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
