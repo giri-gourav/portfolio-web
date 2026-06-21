@@ -104,7 +104,7 @@ section {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000;
+  z-index: 1100;
   border-bottom: 1px solid var(--border-dark);
   background: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(12px);
