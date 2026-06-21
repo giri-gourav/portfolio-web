@@ -266,6 +266,15 @@ section {
   color: var(--accent-neon);
 }
 
+@media(max-width: 809.98px) {
+  .nav-links {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+
 /* Hero Section */
 .hero-section {
   padding-top: 180px;
